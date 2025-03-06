@@ -2,10 +2,10 @@ import 'dart:io';
 
 void main() {
   print("Enter the first value :");
-	int num1 = int.parse(Stdin.readLineSync()!);
+	int num1 = int.parse(stdin.readLineSync()!);
 
  print("Enter the first value :");
-	int num2 = int.parse(Stdin.readLineSync()!);
+	int num2 = int.parse(stdin.readLineSync()!);
 
 
   if (num1 > num2) {
